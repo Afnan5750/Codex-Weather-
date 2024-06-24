@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333;
+}
+
+.container {
+  text-align: center;
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #1b1b1b;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.weather-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.fa-lg {
+  font-size: 24px;
+}
